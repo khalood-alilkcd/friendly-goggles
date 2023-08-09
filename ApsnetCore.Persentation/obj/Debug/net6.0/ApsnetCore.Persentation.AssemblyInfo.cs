@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApsnetCore.Persentation")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+783df232ea09986310f005f51f22cc62aa517777")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApsnetCore.Persentation")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ApsnetCore.Persentation")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

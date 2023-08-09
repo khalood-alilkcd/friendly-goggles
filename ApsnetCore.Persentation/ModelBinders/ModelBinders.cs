@@ -38,7 +38,7 @@ Let's break down the code:
 
 This custom model binder can be registered in your application's startup code to handle binding for specific model properties or types.
      */
-    public class ModelBinders : IModelBinder
+    public class ArrayModelBinder : IModelBinder
     {
         public Task BindModelAsync(ModelBindingContext bindingContext)
         {

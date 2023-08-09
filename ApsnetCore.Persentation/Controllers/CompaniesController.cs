@@ -5,7 +5,6 @@ using System.Text;
 using System.Threading.Tasks;
 using Contract.Services;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.ModelBinding.Binders;
 using shared.DataTransferObject;
 using ApsnetCore.Persentation.ModelBinders;
 
@@ -34,7 +33,7 @@ namespace ApsnetCore.Persentation.Controllers
         }
 
         [HttpGet("collection/({ids})" /*, Name = "test"*/)]
-        public IActionResult GetCompanyCollection([ModelBinder(BinderType = typeof(ArrayModelBinder<Guid>))]IEnumerable<Guid> ids)
+        public IActionResult GetCompanyCollection([ModelBinder(BinderType = typeof(ArrayModelBinder))]IEnumerable<Guid> ids)
         {
             var companies = _service.CompanyService.GetByIds(ids, trackChanges: false);
             return Ok(companies);
