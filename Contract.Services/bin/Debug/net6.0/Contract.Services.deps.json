@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Contract.Services/1.0.0": {
+        "dependencies": {
+          "shared": "1.0.0"
+        },
+        "runtime": {
+          "Contract.Services.dll": {}
+        }
+      },
+      "shared/1.0.0": {
+        "runtime": {
+          "shared.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Contract.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

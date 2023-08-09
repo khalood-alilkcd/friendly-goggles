@@ -1,0 +1,17 @@
+F:\asp.net web api from YouTube\dotnet_six_projects\LoggerServices\bin\Debug\net6.0\LoggerServices.deps.json
+F:\asp.net web api from YouTube\dotnet_six_projects\LoggerServices\bin\Debug\net6.0\LoggerServices.dll
+F:\asp.net web api from YouTube\dotnet_six_projects\LoggerServices\bin\Debug\net6.0\LoggerServices.pdb
+F:\asp.net web api from YouTube\dotnet_six_projects\LoggerServices\bin\Debug\net6.0\Contracts.dll
+F:\asp.net web api from YouTube\dotnet_six_projects\LoggerServices\bin\Debug\net6.0\Contracts.pdb
+F:\asp.net web api from YouTube\dotnet_six_projects\LoggerServices\obj\Debug\net6.0\LoggerServices.csproj.AssemblyReference.cache
+F:\asp.net web api from YouTube\dotnet_six_projects\LoggerServices\obj\Debug\net6.0\LoggerServices.GeneratedMSBuildEditorConfig.editorconfig
+F:\asp.net web api from YouTube\dotnet_six_projects\LoggerServices\obj\Debug\net6.0\LoggerServices.AssemblyInfoInputs.cache
+F:\asp.net web api from YouTube\dotnet_six_projects\LoggerServices\obj\Debug\net6.0\LoggerServices.AssemblyInfo.cs
+F:\asp.net web api from YouTube\dotnet_six_projects\LoggerServices\obj\Debug\net6.0\LoggerServices.csproj.CoreCompileInputs.cache
+F:\asp.net web api from YouTube\dotnet_six_projects\LoggerServices\obj\Debug\net6.0\LoggerServices.csproj.CopyComplete
+F:\asp.net web api from YouTube\dotnet_six_projects\LoggerServices\obj\Debug\net6.0\LoggerServices.dll
+F:\asp.net web api from YouTube\dotnet_six_projects\LoggerServices\obj\Debug\net6.0\refint\LoggerServices.dll
+F:\asp.net web api from YouTube\dotnet_six_projects\LoggerServices\obj\Debug\net6.0\LoggerServices.pdb
+F:\asp.net web api from YouTube\dotnet_six_projects\LoggerServices\obj\Debug\net6.0\ref\LoggerServices.dll
+F:\asp.net web api from YouTube\dotnet_six_projects\LoggerServices\bin\Debug\net6.0\Entities.dll
+F:\asp.net web api from YouTube\dotnet_six_projects\LoggerServices\bin\Debug\net6.0\Entities.pdb

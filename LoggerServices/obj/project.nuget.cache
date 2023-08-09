@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "gIyH1Aw27xqxGXn4kLOIgGi9nY95VDpkW7n+dns3ieYj7pL7lCdkf0yorLSDiQUIHsXNiaIcI9fCJJW80eTwRA==",
+  "success": true,
+  "projectFilePath": "F:\\asp.net web api from YouTube\\dotnet_six_projects\\LoggerServices\\LoggerServices.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ET\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\ET\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.0\\microsoft.extensions.dependencyinjection.5.0.0.nupkg.sha512",
+    "C:\\Users\\ET\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\ET\\.nuget\\packages\\microsoft.extensions.logging\\5.0.0\\microsoft.extensions.logging.5.0.0.nupkg.sha512",
+    "C:\\Users\\ET\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\ET\\.nuget\\packages\\microsoft.extensions.options\\5.0.0\\microsoft.extensions.options.5.0.0.nupkg.sha512",
+    "C:\\Users\\ET\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+    "C:\\Users\\ET\\.nuget\\packages\\nlog\\4.7.15\\nlog.4.7.15.nupkg.sha512",
+    "C:\\Users\\ET\\.nuget\\packages\\nlog.extensions.logging\\1.7.5\\nlog.extensions.logging.1.7.5.nupkg.sha512"
+  ],
+  "logs": []
+}

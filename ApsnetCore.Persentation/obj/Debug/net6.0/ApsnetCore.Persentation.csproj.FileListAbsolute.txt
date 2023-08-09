@@ -1,0 +1,17 @@
+F:\asp.net web api from YouTube\dotnet_six_projects\ApsnetCore.Persentation\bin\Debug\net6.0\ApsnetCore.Persentation.deps.json
+F:\asp.net web api from YouTube\dotnet_six_projects\ApsnetCore.Persentation\bin\Debug\net6.0\ApsnetCore.Persentation.dll
+F:\asp.net web api from YouTube\dotnet_six_projects\ApsnetCore.Persentation\bin\Debug\net6.0\ApsnetCore.Persentation.pdb
+F:\asp.net web api from YouTube\dotnet_six_projects\ApsnetCore.Persentation\bin\Debug\net6.0\Contract.Services.dll
+F:\asp.net web api from YouTube\dotnet_six_projects\ApsnetCore.Persentation\bin\Debug\net6.0\Contract.Services.pdb
+F:\asp.net web api from YouTube\dotnet_six_projects\ApsnetCore.Persentation\obj\Debug\net6.0\ApsnetCore.Persentation.csproj.AssemblyReference.cache
+F:\asp.net web api from YouTube\dotnet_six_projects\ApsnetCore.Persentation\obj\Debug\net6.0\ApsnetCore.Persentation.GeneratedMSBuildEditorConfig.editorconfig
+F:\asp.net web api from YouTube\dotnet_six_projects\ApsnetCore.Persentation\obj\Debug\net6.0\ApsnetCore.Persentation.AssemblyInfoInputs.cache
+F:\asp.net web api from YouTube\dotnet_six_projects\ApsnetCore.Persentation\obj\Debug\net6.0\ApsnetCore.Persentation.AssemblyInfo.cs
+F:\asp.net web api from YouTube\dotnet_six_projects\ApsnetCore.Persentation\obj\Debug\net6.0\ApsnetCore.Persentation.csproj.CoreCompileInputs.cache
+F:\asp.net web api from YouTube\dotnet_six_projects\ApsnetCore.Persentation\obj\Debug\net6.0\ApsnetCore.Persentation.csproj.CopyComplete
+F:\asp.net web api from YouTube\dotnet_six_projects\ApsnetCore.Persentation\obj\Debug\net6.0\ApsnetCore.Persentation.dll
+F:\asp.net web api from YouTube\dotnet_six_projects\ApsnetCore.Persentation\obj\Debug\net6.0\refint\ApsnetCore.Persentation.dll
+F:\asp.net web api from YouTube\dotnet_six_projects\ApsnetCore.Persentation\obj\Debug\net6.0\ApsnetCore.Persentation.pdb
+F:\asp.net web api from YouTube\dotnet_six_projects\ApsnetCore.Persentation\obj\Debug\net6.0\ref\ApsnetCore.Persentation.dll
+F:\asp.net web api from YouTube\dotnet_six_projects\ApsnetCore.Persentation\bin\Debug\net6.0\shared.dll
+F:\asp.net web api from YouTube\dotnet_six_projects\ApsnetCore.Persentation\bin\Debug\net6.0\shared.pdb

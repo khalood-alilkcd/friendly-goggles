@@ -1,0 +1,15 @@
+F:\asp.net web api from YouTube\dotnet_six_projects\Contract.Services\bin\Debug\net6.0\Contract.Services.deps.json
+F:\asp.net web api from YouTube\dotnet_six_projects\Contract.Services\bin\Debug\net6.0\Contract.Services.dll
+F:\asp.net web api from YouTube\dotnet_six_projects\Contract.Services\bin\Debug\net6.0\Contract.Services.pdb
+F:\asp.net web api from YouTube\dotnet_six_projects\Contract.Services\obj\Debug\net6.0\Contract.Services.csproj.AssemblyReference.cache
+F:\asp.net web api from YouTube\dotnet_six_projects\Contract.Services\obj\Debug\net6.0\Contract.Services.GeneratedMSBuildEditorConfig.editorconfig
+F:\asp.net web api from YouTube\dotnet_six_projects\Contract.Services\obj\Debug\net6.0\Contract.Services.AssemblyInfoInputs.cache
+F:\asp.net web api from YouTube\dotnet_six_projects\Contract.Services\obj\Debug\net6.0\Contract.Services.AssemblyInfo.cs
+F:\asp.net web api from YouTube\dotnet_six_projects\Contract.Services\obj\Debug\net6.0\Contract.Services.csproj.CoreCompileInputs.cache
+F:\asp.net web api from YouTube\dotnet_six_projects\Contract.Services\obj\Debug\net6.0\Contract.Services.csproj.CopyComplete
+F:\asp.net web api from YouTube\dotnet_six_projects\Contract.Services\obj\Debug\net6.0\Contract.Services.dll
+F:\asp.net web api from YouTube\dotnet_six_projects\Contract.Services\obj\Debug\net6.0\refint\Contract.Services.dll
+F:\asp.net web api from YouTube\dotnet_six_projects\Contract.Services\obj\Debug\net6.0\Contract.Services.pdb
+F:\asp.net web api from YouTube\dotnet_six_projects\Contract.Services\obj\Debug\net6.0\ref\Contract.Services.dll
+F:\asp.net web api from YouTube\dotnet_six_projects\Contract.Services\bin\Debug\net6.0\shared.dll
+F:\asp.net web api from YouTube\dotnet_six_projects\Contract.Services\bin\Debug\net6.0\shared.pdb

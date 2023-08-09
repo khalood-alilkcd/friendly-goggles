@@ -1,0 +1,12 @@
+F:\asp.net web api from YouTube\dotnet_six_projects\shared\bin\Debug\net6.0\shared.deps.json
+F:\asp.net web api from YouTube\dotnet_six_projects\shared\bin\Debug\net6.0\shared.dll
+F:\asp.net web api from YouTube\dotnet_six_projects\shared\bin\Debug\net6.0\shared.pdb
+F:\asp.net web api from YouTube\dotnet_six_projects\shared\obj\Debug\net6.0\shared.csproj.AssemblyReference.cache
+F:\asp.net web api from YouTube\dotnet_six_projects\shared\obj\Debug\net6.0\shared.GeneratedMSBuildEditorConfig.editorconfig
+F:\asp.net web api from YouTube\dotnet_six_projects\shared\obj\Debug\net6.0\shared.AssemblyInfoInputs.cache
+F:\asp.net web api from YouTube\dotnet_six_projects\shared\obj\Debug\net6.0\shared.AssemblyInfo.cs
+F:\asp.net web api from YouTube\dotnet_six_projects\shared\obj\Debug\net6.0\shared.csproj.CoreCompileInputs.cache
+F:\asp.net web api from YouTube\dotnet_six_projects\shared\obj\Debug\net6.0\shared.dll
+F:\asp.net web api from YouTube\dotnet_six_projects\shared\obj\Debug\net6.0\refint\shared.dll
+F:\asp.net web api from YouTube\dotnet_six_projects\shared\obj\Debug\net6.0\shared.pdb
+F:\asp.net web api from YouTube\dotnet_six_projects\shared\obj\Debug\net6.0\ref\shared.dll
