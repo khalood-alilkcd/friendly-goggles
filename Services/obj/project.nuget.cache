@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Td9oYf3COT9UqbcfL7jkEUDGvPGaRPbZGFywudJw3KXeJjLlyhw+EEvd7HZxKFxvc6ybXr/Ku/ScowRVWPEgbA==",
+  "dgSpecHash": "A+fxPeJYT44ZJQ4ol70Mej71riup2R6wIzWsa+aJI2wsu4sffGmSaw8zDCPbss+pqIV7/IMVhIgwCvwx4tDh7g==",
   "success": true,
   "projectFilePath": "F:\\asp.net web api from YouTube\\dotnet_six_projects\\Services\\Services.csproj",
   "expectedPackageFiles": [
@@ -20,6 +20,7 @@
     "C:\\Users\\ET\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "C:\\Users\\ET\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\ET\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.1\\system.diagnostics.diagnosticsource.6.0.1.nupkg.sha512",
+    "C:\\Users\\ET\\.nuget\\packages\\system.linq.dynamic.core\\1.3.4\\system.linq.dynamic.core.1.3.4.nupkg.sha512",
     "C:\\Users\\ET\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
   "logs": []

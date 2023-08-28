@@ -21,3 +21,4 @@ F:\asp.net web api from YouTube\dotnet_six_projects\Services\obj\Debug\net6.0\Se
 F:\asp.net web api from YouTube\dotnet_six_projects\Services\obj\Debug\net6.0\ref\Services.dll
 F:\asp.net web api from YouTube\dotnet_six_projects\Services\bin\Debug\net6.0\shared.dll
 F:\asp.net web api from YouTube\dotnet_six_projects\Services\bin\Debug\net6.0\shared.pdb
+F:\asp.net web api from YouTube\dotnet_six_projects\Services\obj\Debug\net6.0\Services.sourcelink.json

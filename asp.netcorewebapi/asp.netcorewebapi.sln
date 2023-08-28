@@ -19,7 +19,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contract.Services", "..\Con
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApsnetCore.Persentation", "..\ApsnetCore.Persentation\ApsnetCore.Persentation.csproj", "{F8F9DA5A-BB73-4D4E-A756-D22F09191A6D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "shared", "..\shared\shared.csproj", "{793E526B-CBBA-4F21-B40C-E6B4A3459F1F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "shared", "..\shared\shared.csproj", "{793E526B-CBBA-4F21-B40C-E6B4A3459F1F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

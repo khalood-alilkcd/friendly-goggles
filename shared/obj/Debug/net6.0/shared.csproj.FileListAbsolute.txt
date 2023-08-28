@@ -10,3 +10,4 @@ F:\asp.net web api from YouTube\dotnet_six_projects\shared\obj\Debug\net6.0\shar
 F:\asp.net web api from YouTube\dotnet_six_projects\shared\obj\Debug\net6.0\refint\shared.dll
 F:\asp.net web api from YouTube\dotnet_six_projects\shared\obj\Debug\net6.0\shared.pdb
 F:\asp.net web api from YouTube\dotnet_six_projects\shared\obj\Debug\net6.0\ref\shared.dll
+F:\asp.net web api from YouTube\dotnet_six_projects\shared\obj\Debug\net6.0\shared.sourcelink.json

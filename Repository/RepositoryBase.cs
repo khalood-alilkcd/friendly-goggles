@@ -25,7 +25,7 @@ namespace Repository
             => !trackChanges ? _context.Set<T>().Where(expression).AsNoTracking()
                 : _context.Set<T>().Where(expression);
 
-        public void Delete(T entity) => _context.Set<T>().Add(entity);
+        public void Delete(T entity) => _context.Set<T>().Remove(entity);
         public void Create(T entity) => _context.Set<T>().Add(entity);
         public void Update(T entity) => _context.Set<T>().Add(entity);
     }

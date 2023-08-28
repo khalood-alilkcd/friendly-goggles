@@ -16,3 +16,5 @@ F:\asp.net web api from YouTube\dotnet_six_projects\ApsnetCore.Persentation\obj\
 F:\asp.net web api from YouTube\dotnet_six_projects\ApsnetCore.Persentation\bin\Debug\net6.0\shared.dll
 F:\asp.net web api from YouTube\dotnet_six_projects\ApsnetCore.Persentation\bin\Debug\net6.0\shared.pdb
 F:\asp.net web api from YouTube\dotnet_six_projects\ApsnetCore.Persentation\obj\Debug\net6.0\ApsnetCore.Persentation.sourcelink.json
+F:\asp.net web api from YouTube\dotnet_six_projects\ApsnetCore.Persentation\bin\Debug\net6.0\Entities.dll
+F:\asp.net web api from YouTube\dotnet_six_projects\ApsnetCore.Persentation\bin\Debug\net6.0\Entities.pdb

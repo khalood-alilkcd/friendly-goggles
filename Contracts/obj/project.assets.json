@@ -11,6 +11,16 @@
         "runtime": {
           "bin/placeholder/Entities.dll": {}
         }
+      },
+      "shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/shared.dll": {}
+        }
       }
     }
   },
@@ -19,11 +29,17 @@
       "type": "project",
       "path": "../Entities/Entities.csproj",
       "msbuildProject": "../Entities/Entities.csproj"
+    },
+    "shared/1.0.0": {
+      "type": "project",
+      "path": "../shared/shared.csproj",
+      "msbuildProject": "../shared/shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Entities >= 1.0.0"
+      "Entities >= 1.0.0",
+      "shared >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -55,6 +71,9 @@
           "projectReferences": {
             "F:\\asp.net web api from YouTube\\dotnet_six_projects\\Entities\\Entities.csproj": {
               "projectPath": "F:\\asp.net web api from YouTube\\dotnet_six_projects\\Entities\\Entities.csproj"
+            },
+            "F:\\asp.net web api from YouTube\\dotnet_six_projects\\shared\\shared.csproj": {
+              "projectPath": "F:\\asp.net web api from YouTube\\dotnet_six_projects\\shared\\shared.csproj"
             }
           }
         }

@@ -2,6 +2,7 @@
 using Contract.Services;
 using Contracts;
 using Repository;
+using shared.DataTransferObject;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,10 +15,12 @@ namespace Services
     {
         private readonly Lazy<ICompanyService> _company;
         private readonly Lazy<IEmployeeService> _employee;
-        public ServiceManager(IRepositoryManager repository, ILoggerManager logger, IMapper mapper)
+
+        public ServiceManager(IRepositoryManager repository, ILoggerManager logger, IMapper mapper, IDataShaper<EmployeeDto> dataShaper)
         {
             _company = new Lazy<ICompanyService>(() => new CompanyService(repository, logger, mapper));
-            _employee = new Lazy<IEmployeeService>(() => new EmployeeService(repository, logger, mapper));
+            _employee = new Lazy<IEmployeeService>(() => new EmployeeService(repository, logger, mapper, dataShaper));
+            
         }
         public ICompanyService CompanyService => _company.Value;
 

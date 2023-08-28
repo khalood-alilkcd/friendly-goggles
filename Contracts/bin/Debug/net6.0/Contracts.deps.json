@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v6.0": {
       "Contracts/1.0.0": {
         "dependencies": {
-          "Entities": "1.0.0"
+          "Entities": "1.0.0",
+          "shared": "1.0.0"
         },
         "runtime": {
           "Contracts.dll": {}
@@ -17,6 +18,11 @@
       "Entities/1.0.0": {
         "runtime": {
           "Entities.dll": {}
+        }
+      },
+      "shared/1.0.0": {
+        "runtime": {
+          "shared.dll": {}
         }
       }
     }
@@ -28,6 +34,11 @@
       "sha512": ""
     },
     "Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "shared/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -1,5 +1,6 @@
 ﻿using Contracts;
 using Entities.Models;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,26 +12,23 @@ namespace Repository
 {
     internal sealed class CompanyRepository : RepositoryBase<Company>, ICompanyRepository
     {
-        public CompanyRepository(RepositoryContext context): base(context) 
-        {
-            
-        }
+        public CompanyRepository(RepositoryContext context): base(context) { }
 
+        public async Task<IEnumerable<Company>> GetAllCompaniesAsync(bool trackChanges)
+        => await FindAll(trackChanges).OrderBy(c => c.Name).ToListAsync();
+         
+        public async Task<IEnumerable<Company>> GetByIdsAsync
+            (IEnumerable<Guid> ids, bool trackChanges)
+        => await FindByCondition(c => ids.Contains(c.Id), trackChanges)
+            .ToListAsync();
+
+        public async Task<Company> GetCompanyAsync(Guid id, bool trackChanges)
+        => await FindByCondition(c => c.Id.Equals(id), trackChanges)
+            .SingleOrDefaultAsync();
+          
         public void CreateCompany(Company company) => Create(company);
 
-        public IEnumerable<Company> GetAllCompanies(bool trackChanges)
-        {
-            var companies =  FindAll(trackChanges).OrderBy(c => c.Name).ToList();
-            return companies;
-        }
-
-        public IEnumerable<Company> GetByIds(IEnumerable<Guid> ids, bool trackChanges)
-        => FindByCondition(c => ids.Contains(c.Id), trackChanges).ToList();
-
-        public Company GetCompany(Guid id, bool trackChanges)
-        {
-            var company = FindByCondition(c => c.Id.Equals(id), trackChanges).SingleOrDefault();
-            return company;
-        }
+        public void DeleteCompany(Company company)
+        => Delete(company);
     }
 }

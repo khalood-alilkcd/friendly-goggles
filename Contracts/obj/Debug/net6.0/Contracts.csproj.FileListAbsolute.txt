@@ -13,3 +13,6 @@ F:\asp.net web api from YouTube\dotnet_six_projects\Contracts\obj\Debug\net6.0\r
 F:\asp.net web api from YouTube\dotnet_six_projects\Contracts\bin\Debug\net6.0\Entities.dll
 F:\asp.net web api from YouTube\dotnet_six_projects\Contracts\bin\Debug\net6.0\Entities.pdb
 F:\asp.net web api from YouTube\dotnet_six_projects\Contracts\obj\Debug\net6.0\Contracts.csproj.CopyComplete
+F:\asp.net web api from YouTube\dotnet_six_projects\Contracts\obj\Debug\net6.0\Contracts.sourcelink.json
+F:\asp.net web api from YouTube\dotnet_six_projects\Contracts\bin\Debug\net6.0\shared.dll
+F:\asp.net web api from YouTube\dotnet_six_projects\Contracts\bin\Debug\net6.0\shared.pdb
