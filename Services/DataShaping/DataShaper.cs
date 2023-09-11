@@ -66,19 +66,17 @@ namespace Services.DataShaping
             return shapedData;
         }
         
-        private ShapedEntity FetchDataForEntity (T entity, IEnumerable<PropertyInfo> requiredProperties)
+        private ExpandoObject FetchDataForEntity (T entity, IEnumerable<PropertyInfo> requiredProperties)
         {
-            var shapedObject = new ShapedEntity();
+            var shapedObject = new ExpandoObject();
             
             foreach(var property in requiredProperties)
             {
                 var objectPropertyValue = property.GetValue(entity);
                 /// ExpandoObject that emplements IDictionary<string, object>
-                shapedObject.Entity.TryAdd(property.Name, objectPropertyValue);
+                shapedObject.TryAdd(property.Name, objectPropertyValue);
             }
-
-            var objectProperty = entity.GetType().GetProperty("Id"); 
-            shapedObject.Id = (Guid)objectProperty.GetValue(entity);
+           
 
             return shapedObject;
         }

@@ -1,6 +1,7 @@
 using ApsnetCore.Persentation.ActionFilters;
 using asp.netcorewebapi;
 using asp.netcorewebapi.Extentions;
+using AspNetCoreRateLimit;
 using Contracts;
 using Microsoft.AspNetCore.HttpOverrides;
 using Microsoft.AspNetCore.Mvc;
@@ -28,6 +29,17 @@ builder.Services.ConfigureSqlContext(builder.Configuration);
 builder.Services.Configure<ApiBehaviorOptions>(options => options.SuppressModelStateInvalidFilter = true);
 builder.Services.AddScoped<ValidationFilterAttribute>();
 builder.Services.AddScoped<IDataShaper<EmployeeDto>, DataShaper<EmployeeDto>>();
+builder.Services.ConfigureVersioning();
+builder.Services.ConfigureResponseCaching();
+builder.Services.ConfigureResponseCacheHeader();
+builder.Services.AddMemoryCache();
+builder.Services.ConfigureRateLimitingOptions();
+builder.Services.AddHttpContextAccessor();
+builder.Services.AddAuthentication();
+builder.Services.ConfigureIdentity();
+builder.Services.ConfigureJWT(builder.Configuration);
+
+
 ///Without this code, our API wouldn’t work, and wouldn’t know where to route incoming requests.
 ///We added the ReturnHttpNotAcceptable = true option, which tells the server that if the client
 ///tries to negotiate for the media type the server doesn’t support, it should return the 406 Not Acceptable status code.
@@ -37,6 +49,7 @@ builder.Services.AddControllers(config => {
     config.RespectBrowserAcceptHeader = true;
     config.ReturnHttpNotAcceptable = true;
     config.InputFormatters.Insert(0, MyJPIF.GetJsonPatchInputFormatter());
+    config.CacheProfiles.Add("120SecondsDuration", new CacheProfile { Duration = 120 });
 }).AddXmlDataContractSerializerFormatters()
     .AddCustomCSVFormatter()
     .AddApplicationPart(typeof(ApsnetCore.Persentation.AssemblyReference).Assembly);
@@ -62,10 +75,12 @@ app.UseForwardedHeaders(new ForwardedHeadersOptions
     ForwardedHeaders = ForwardedHeaders.All
 });
 
+app.UseIpRateLimiting();
 app.UseCors("CorsPolicy");
-
+app.UseResponseCaching();
+app.UseHttpCacheHeaders();
 app.UseHttpsRedirection();
-
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();

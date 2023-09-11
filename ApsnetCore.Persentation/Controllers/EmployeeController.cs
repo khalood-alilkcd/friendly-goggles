@@ -23,6 +23,7 @@ namespace ApsnetCore.Persentation.Controllers
             => _service = service;
 
         [HttpGet]
+        [HttpHead]
         public async Task<IActionResult> GetEmployeesForCompany(Guid companyId, [FromQuery] EmployeeParameters employeeParamters)
         {
             var pagedResult = await _service.EmployeeService.GetEmployeesAsync(companyId,employeeParamters, trackChanges : false);

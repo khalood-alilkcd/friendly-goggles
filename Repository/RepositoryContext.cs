@@ -1,6 +1,6 @@
 ﻿using Entities.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.ChangeTracking.Internal;
 using Repository.Configuration;
 using System;
 using System.Collections.Generic;
@@ -10,17 +10,19 @@ using System.Threading.Tasks;
 
 namespace Repository
 {
-    public class RepositoryContext : DbContext
+    public class RepositoryContext : IdentityDbContext<User>
+        ///<TUser> => Identity.IdentityUser
     {
         public RepositoryContext(DbContextOptions options) : base(options)
-        {
-            
-        }
+        {}
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            /// migration
+            base.OnModelCreating(modelBuilder);
             modelBuilder.ApplyConfiguration(new CompanyConfiguration());
-            modelBuilder.ApplyConfiguration(new EmployeeConfiguration()); 
+            modelBuilder.ApplyConfiguration(new EmployeeConfiguration());
+            modelBuilder.ApplyConfiguration(new RoleConfiguration());
         }
         public DbSet<Employee> Employees{ get; set; }
         public DbSet<Company> Companies{ get; set; }

@@ -18,7 +18,7 @@ namespace asp.netcorewebapi
             ///The ReverseMap method is also going to configure this rule to execute reverse mapping if we ask for it.
             CreateMap<EmployeeForUpdateDto, Employee>().ReverseMap();
             CreateMap<CompanyForUpdateDto, Company>();
-            
+            CreateMap<UserForRegistrationDto, User>();
         }
     }
 }

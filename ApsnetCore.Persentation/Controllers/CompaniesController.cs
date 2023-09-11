@@ -9,18 +9,22 @@ using shared.DataTransferObject;
 using ApsnetCore.Persentation.ModelBinders;
 using Microsoft.AspNetCore.JsonPatch;
 using ApsnetCore.Persentation.ActionFilters;
+using Marvin.Cache.Headers;
+using Microsoft.AspNetCore.Authorization;
 
 namespace ApsnetCore.Persentation.Controllers
 {
     [ApiController]
     [Route("api/companies")]
+    /*[ResponseCache(CacheProfileName = "120SecondsDuration")]*/
     public class CompaniesController : ControllerBase
     {
         private readonly IServiceManager _service;
 
         public CompaniesController(IServiceManager service)=> _service = service;
 
-        [HttpGet]
+        [HttpGet(Name = "GetCompanies")]
+        [Authorize]
         public async Task<IActionResult> GetCompanies()
         {
             var company = await _service.CompanyService.GetCompaniesAsync(trackChanges: false);
@@ -28,6 +32,8 @@ namespace ApsnetCore.Persentation.Controllers
         }
 
         [HttpGet("{id:guid}", Name = "companyById")]
+        [HttpCacheExpiration(CacheLocation = CacheLocation.Public, MaxAge = 60)]
+        [HttpCacheValidation(MustRevalidate = false)]
         public async Task<IActionResult> GetCompany(Guid id)
         {
             var company = await _service.CompanyService.GetCompanyAsync(id, trackChanges: false);
@@ -72,6 +78,7 @@ namespace ApsnetCore.Persentation.Controllers
             await _service.CompanyService.UpdateCompanyAsync(id, company, trackChanges: false);
             return NoContent();
         }
+
         [HttpPatch("{id:guid}")]
         public async Task<IActionResult> PartiallyUpdatCompany(Guid id ,[FromBody] JsonPatchDocument<CompanyForUpdateDto> patchDoc)
         {
@@ -82,6 +89,13 @@ namespace ApsnetCore.Persentation.Controllers
             patchDoc.ApplyTo(result.companyForPatch);
             _service.CompanyService.SaveCompanyForPatch(result.companyForPatch, result.companyEntity);
             return NoContent();
+        }
+
+        [HttpOptions]
+        public IActionResult GetCompaniesOptions()
+        {
+            Response.Headers.Add("Allow", "GET, OPTIONS, POST");
+            return Ok();
         }
     }
 }
